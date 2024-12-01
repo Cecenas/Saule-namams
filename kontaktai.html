@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siųsti žinutę</title>
+    <link rel="stylesheet" href="form.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="flex-container">
+        <div class="flex-item"><img src="/pictures/logo.png" alt="Blog" class="logo" /></div>
+       
+        <div class="flex-item">
+          <h1> Saulė šviečia visiems</h1>
+        </div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+      </div>
+      <nav>
+        <div class="navigacijos_laukas">
+          <div class="navigacija"><a href="saules_elektrines.html">Saulės elektrinių statyba</a></div>
+          <div class="navigacija"><a href="el_gamyba.html">Saulės elektrinių elektros gamyba</a></div>
+          <div class="navigacija"><a href="kontaktai.html">Kontaktai</a></div>
+  
+        </div>
+      </nav>
+      </div>
+    </header>
+    <nav>
+      <ul>
+          <li class="nav"><a href="index.html">Pagrindinis</a></li>
+      </ul>
+  </nav>
+    <div class="form-container">
+      <form action="/index.html">
+        <div>
+          <label>
+            <span>Jūsų vardas </span>
+            <input
+              placeholder="Įrašykite savo vardą"
+              type="text"
+              name="vardas"
+              required required minlength="3"
+              maxlength="12"
+            />
+          </label>
+        </div>
+        <div>
+          <label>
+            <span>el. paštas </span>
+            <input
+              placeholder="Įrašykite savo el. paštą"
+              type="email"
+              name="email"
+            />
+          </label>
+        </div>
+        <div>
+          <label>
+            <span>Jūsų komentaras</span>
+            <textarea rows="6" cols="40"></textarea>          
+          </label>          
+        </div>           
+      <!-- </div> -->
+      <div>
+        <button type="submit">Pateikti</button>
+        <button type="reset">Anuliuoti forma</botton>
+      </div>
+      </form>
+    </div>
+  </body>
+</html>
